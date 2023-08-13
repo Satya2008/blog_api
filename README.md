@@ -4,38 +4,6 @@ This project is a Blog REST API that allows users and administrators to manage a
 
 
 # Features
-## User Management
-
-- Sign up new users with encrypted passwords.
-- Update user information.
-- Delete user accounts.
-- Retrieve user information by ID.
-- Authenticate users through JWT tokens.
-
-## Post Management
-
-- Create new blog posts.
-- Update existing blog posts.
-- Delete blog posts.
-- Retrieve blog posts by ID.
-- Retrieve blog posts by category.
-- Search for blog posts by keywords in the title.
-- Paginate and sort blog posts.
-## Category Management
-- Create new categories.
-- Update existing categories.
-- Delete categories.
-- Retrieve categories by ID.
-- Retrieve all categories.
-## Comment Management
-- Add comments to blog posts.
-- Update existing comments.
-- Delete comments.
-- Retrieve comments by post.
-- Retrieve comments by user.
-## Authentication
-- Secure authentication using JWT tokens.
-- Endpoints for user sign-in.
 
 ## User Operations
 
