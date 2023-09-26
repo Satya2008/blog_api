@@ -679,3 +679,35 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2023-09-27T03:52:22.902+05:30 DEBUG 9184 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
 2023-09-27T03:52:22.902+05:30 DEBUG 9184 --- [http-nio-8080-exec-5] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]
 2023-09-27T03:52:22.903+05:30 DEBUG 9184 --- [http-nio-8080-exec-5] s.w.a.DelegatingAuthenticationEntryPoint : No match found. Using default entry point org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint@5673bff2
+2023-09-27T04:00:15.628+05:30  INFO 9184 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-27T04:00:15.815+05:30  INFO 9184 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-27T04:00:15.847+05:30  INFO 9184 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-09-27T04:00:15.955+05:30  INFO 9184 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-27T04:00:16.025+05:30  INFO 9184 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-27T04:00:16.100+05:30  INFO 9184 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-27T04:00:16.821+05:30  INFO 9184 --- [restartedMain] com.masai.BlogApiApplication             : Starting BlogApiApplication using Java 17.0.6 with PID 9184 (C:\Users\Lenovo\Desktop\blog_api\blog-api\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\blog_api\blog-api)
+2023-09-27T04:00:16.822+05:30 DEBUG 9184 --- [restartedMain] com.masai.BlogApiApplication             : Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-09-27T04:00:16.822+05:30  INFO 9184 --- [restartedMain] com.masai.BlogApiApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-09-27T04:00:17.515+05:30  INFO 9184 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-27T04:00:17.579+05:30  INFO 9184 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 5 JPA repository interfaces.
+2023-09-27T04:00:17.865+05:30  INFO 9184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-27T04:00:17.866+05:30  INFO 9184 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-27T04:00:17.866+05:30  INFO 9184 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-27T04:00:17.907+05:30  INFO 9184 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-27T04:00:17.908+05:30  INFO 9184 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1077 ms
+2023-09-27T04:00:17.929+05:30 DEBUG 9184 --- [restartedMain] c.masai.config.JwtTokenGeneratorFilter   : Filter 'jwtTokenGeneratorFilter' configured for use
+2023-09-27T04:00:17.988+05:30  INFO 9184 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-27T04:00:18.009+05:30  INFO 9184 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-27T04:00:18.009+05:30  INFO 9184 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-27T04:00:18.012+05:30  INFO 9184 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-09-27T04:00:18.057+05:30  INFO 9184 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4535a366
+2023-09-27T04:00:18.058+05:30  INFO 9184 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-09-27T04:00:18.104+05:30  INFO 9184 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-27T04:00:18.337+05:30  INFO 9184 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-27T04:00:18.435+05:30  INFO 9184 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-27T04:00:18.798+05:30  WARN 9184 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-27T04:00:18.987+05:30  INFO 9184 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3627a029, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f22c711, org.springframework.security.web.context.SecurityContextHolderFilter@53106225, org.springframework.security.web.header.HeaderWriterFilter@5bdf5c42, org.springframework.web.filter.CorsFilter@524c5d2a, org.springframework.security.web.authentication.logout.LogoutFilter@13cb7cd8, com.masai.config.JwtTokenValidatorFilter@536859f8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@40f83ba0, com.masai.config.JwtTokenGeneratorFilter@58458d54, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@79a260c5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@583e1eff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@106c302, org.springframework.security.web.session.SessionManagementFilter@6e23e707, org.springframework.security.web.access.ExceptionTranslationFilter@6a980012, org.springframework.security.web.access.intercept.AuthorizationFilter@293698bf]
+2023-09-27T04:00:19.136+05:30  INFO 9184 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-27T04:00:19.176+05:30  INFO 9184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-27T04:00:19.207+05:30  INFO 9184 --- [restartedMain] com.masai.BlogApiApplication             : Started BlogApiApplication in 2.455 seconds (process running for 614.965)
+2023-09-27T04:00:19.216+05:30  INFO 9184 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
