@@ -67,7 +67,9 @@ Install the required dependencies using npm install or yarn install.
 
 ## API Documentation
 
-The API documentation can be accessed by running the application and visiting http://localhost:8080/swagger-ui.html. 
+The API documentation can be accessed by running the application and visiting 
+https://blogapi-production-b26d.up.railway.app/swagger-ui/index.html
+http://localhost:8080/swagger-ui.html. 
 This provides a user-friendly interface to interact with the API endpoints and understand their functionality.
 
 ## Technologies Used
@@ -84,7 +86,7 @@ This provides a user-friendly interface to interact with the API endpoints and u
 Contributions are welcome! If you find any issues or would like to add new features, please feel free to submit a pull request.
 
 ## Contact
-For any inquiries or feedback, please contact -  sayanand807@gmail.com
+For any inquiries or feedback, please contact -  satyanand807@gmail.com
 
 
 
